@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- 
+    Enlaces: Conocidos tambien por links popularmente. Su objetivo es conectar una pagina web con otra pagina web, con un recurso tanto interno como externo, o con otro sitio web.
+    
+    Tienen el atributo obligatorio href, donde le especificamos la ruta del recurso o sitio que queremos obtener.
+    
+    Tambien tiene el atributo target, que configura como queremos visualizar el recurso o sitio que solicitamos.
+
+    Atributos de los enlaces
+        Target:define donde se abrira el recurso solicitado. Por norma general siempre que useis rutas absolutas pondreis como valor "_blank" El valor por defecto es "_self"(es como no poner nada)
+       
+        Download: Atributo booleano, sirve para descargar el recurso solicitado.
+        IMPORTANTE, el recurso debe estar en tu mismo servidor.
+-->
+<body>
+    <h1>home</h1>
+    <nav>
+        <p><a href="/paginas/blog.html#Post_1">Post 1</a></p>
+        <p><a href="/paginas/blog.html#Post_2">Post 2</a></p>
+        <p><a href="/paginas/blog.html#Post_3">Post 3</a></p>
+        <p><a href="/paginas/blog.html#Post_4">Post 4</a></p>
+        <p><a href="/paginas/blog.html#Post_5">Post 5</a></p>
+    </nav>
+    <a href="/paginas/blog.html">Ir a blog</a>
+    <!-- <a href="/assets/images/lofi jake.jpg" download>Lofi jake</a> -->
+    <!-- <a href="https://google.com" target="-blank">ir a google</a> -->
+</body>
+</html>

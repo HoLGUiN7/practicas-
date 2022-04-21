@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro</title>
+</head>
+<body>
+    <h1>Formulario de registro</h1>
+    
+    <form action="" method="GET">
+        
+        <form>
+            Nombre:
+            <input type="text" maxlength="50" name="Nombre">
+        </form>
+       <br>
+        <form> 
+            Apellido:
+            <input type="text" maxlength="50" name="Apellido">
+        </form>
+        
+<form>
+    <label for="Sexo">Sexo:</label>
+    <input type="radio" id="Sexo"> Hombre
+    <input type="radio" id="Sexo"> Mujer
+</form>
+
+<form>
+    Correo:
+    <input type="text" maxlength="50">
+</form>
+
+<form>
+    Poblacion:
+    <select name="Poblacion" id="Poblacion">
+        <option>Alicante</option>
+        <option>Madrid</option>
+        <option>Sevilla</option>
+        <option>Valencia</option>
+    </select>
+</form>
+<form>
+    Descripcion:
+    <textarea name="Descripcion" id="info" cols="60" rows="6"></textarea>
+</form>
+<form>
+    Deseo recibir informacion sobre novedades y ofertas.
+    <input type="checkbox" name="info" id="info">
+</form>
+<form>
+    Declaro haber leido y aceptado los terminos de conciones.
+    <input type="checkbox" name="T&C" id="T&C" checked>
+</form>
+
+<form>
+    <input type="submit" value="Enviar">
+</form>
+    </form>
+</body>
+</html>
